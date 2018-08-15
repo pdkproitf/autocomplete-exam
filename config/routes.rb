@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  root 'english_words_controller#search'
+  # get '/search/:word' => 'english_words_controller#search', :as => :root
+
 end
