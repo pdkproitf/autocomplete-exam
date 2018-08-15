@@ -14,7 +14,7 @@ end
 
 english_words = Array.new
 
-File.open(seed_file,'r').each_with_index do |word|
+File.open(seed_file,'r').each do |word|
   english_words << EnglishWord.new(word: word.chomp)
   import(english_words) if english_words.size >= 1_000
 end
