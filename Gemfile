@@ -41,6 +41,9 @@ gem 'activerecord-import', '~> 0.15.0'
 # Call 'binding.pry' anywhere in the code to stop execution and get a debugger console
 gem 'pry-byebug'
 
+# Full text seach: advantage of PostgreSQL's full text search.
+gem 'pg_search'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
