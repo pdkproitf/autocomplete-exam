@@ -3,22 +3,23 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Time limit: 4 hours
 
-* Ruby version
+Requirements:
+Your job is to write a simple yet performant autocomplete web UI.
 
-* System dependencies
+The UI should only contain 1 textbox, and when user types something, it should make auto-complete suggestions based on the list of predefined words. For examples of how it should look, refer to Google.com
 
-* Configuration
 
-* Database creation
+Notes:
+You’re allowed to pick and choose any programming languages (and DB - if any) that you’re comfortable/you think appropriate (please explain why to us afterwards).
 
-* Database initialization
+The autocomplete mechanism should happen on the server-side instead of client-side.
 
-* How to run the test suite
+On the frontend, you are encouraged (but not required) to write your own js code for rendering the list of suggestions.
 
-* Services (job queues, cache servers, search engines, etc.)
+The list of words for autocomplete can be downloaded here:
+https://github.com/dwyl/english-words
 
-* Deployment instructions
 
-* ...
+app: https://holistic-autocomplete-exam.herokuapp.com/
