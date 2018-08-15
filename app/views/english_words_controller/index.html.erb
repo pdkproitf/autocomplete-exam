@@ -1,0 +1,12 @@
+<h1>Subject</h1>
+<p>
+  write a simple yet performant autocomplete web UI.
+
+  The UI should only contain 1 textbox, and when user types something, it should make auto-complete suggestions based on the list of predefined words.
+  For examples of how it should look, refer to Google.com
+</p>
+
+<%= form_tag do %>
+  <%= text_field_tag 'search', nil, placeholder: 'Enter a word', id: 'word_input', list: "word_list" %>
+  <datalist id='word_list'></datalist>
+<% end %>
